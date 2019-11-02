@@ -1,0 +1,59 @@
+*När använder man ​add​ respektive ​commit​?
+
+Git add :
+Adds files to the Git index, which is a staging area for objects prepared to be committed. 
+Add tells git to start tracking a file. 
+
+Git commit :
+Captures a snapshot of the project's currently staged changes. 
+
+
+*Vad är ​pull​ repektive ​push​?
+
+The git pull command is used to fetch and download content from a remote repository 
+and immediately update the local repository to match that content. 
+
+The git push command is used to upload local repository content to a remote repository. 
+Pushing is how you transfer commits from your local repository to a remote repo. 
+Or contribute the updated instructions that we have done, back to the originrepository.
+
+
+*När använder man ​log​ respektive ​status​?
+
+Git logs allow you to review and read a history of everything that happens to a repository. 
+The history is built using git-log , a simple tool with a ton of options 
+for displaying commit history.
+
+The git status command displays the state of the working directory and the staging area. 
+It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git. 
+Status output does not show you any information regarding the committed project history.
+
+
+*Hur kan man formulera sig i sina commit-meddelanden?
+
+git commit message :
+-Separate subject from body with a blank line.
+-Do not end the subject line with a period.
+-Capitalize the subject line and each paragraph.
+-Use the imperative mood in the subject line.
+-Wrap lines at 72 characters.
+-Use the body to explain what and why you have done something.
+
+
+
+*Det finns flera sätt att rulla tillbaka koden till ett tidigare tillstånd. 
+ Förklara skillnaden ochmotivera när man skulle använda den ena eller andra metoden. 
+ Ge gärna exempel påde kommandon du använder för att göra detta och vissa att det fungerar, 
+ vilken output du fick från git-kommandona eller din IDE.
+ 
+git stash :
+This command is to get our earlier version back.
+
+git revert :
+These commands are when we do something wrong and we want to fix it.
+
+git reset :
+This command is used to undo local changes to the state of a Git repo. 
+Git reset operates on "The Three Trees of Git". 
+These trees are the Commit History ( HEAD ), the Staging Index, and the Working Directory.
+
