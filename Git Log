@@ -1,0 +1,14 @@
+nadhi@LAPTOP-KCI986Q4 MINGW64 ~/eclipse-workspace/Task1 (master)
+$ git log
+commit 59c0ec6847bd0bb3a7bc8a7597a31ce453429347 (HEAD -> master, origin/master)
+Author: Nadhia <nadhiasals@gmail.com>
+Date:   Sat Nov 2 15:01:37 2019 +0100
+
+    Halloha
+
+commit bed718655ad6c7399493de508b0a78bd20d0d38a
+Author: Nadhia <nadhiasals@gmail.com>
+Date:   Sat Nov 2 14:41:29 2019 +0100
+
+    Hallo
+           
